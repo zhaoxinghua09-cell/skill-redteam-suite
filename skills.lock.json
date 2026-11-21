@@ -1,0 +1,30 @@
+{
+  "algorithm": "sha256(sorted relpath + NUL + file sha256, per line)",
+  "history": [
+    {
+      "root_digest": "395044a6ec502cbc0f19b660a91c9e67094b6a3ff92fb8598c1d266069de3d47",
+      "sequence": 1
+    }
+  ],
+  "root_digest": "395044a6ec502cbc0f19b660a91c9e67094b6a3ff92fb8598c1d266069de3d47",
+  "schema_version": 2,
+  "sequence": 1,
+  "skill_count": 2,
+  "skills": [
+    {
+      "declared_name": "gaming-probe",
+      "digest": "34bd937e0ffc67e949d99744b8137c8000cf2a29afcd054024d805ca2d993e8f",
+      "file_count": 7,
+      "has_description": true,
+      "path": "probes/shape"
+    },
+    {
+      "declared_name": "probe-semantic",
+      "digest": "85091701298c2367ca0b6daa97374e583231d0118de3ad97a82c3413e191a1d9",
+      "file_count": 9,
+      "has_description": true,
+      "path": "probes/vacuity"
+    }
+  ],
+  "validated_against": []
+}
